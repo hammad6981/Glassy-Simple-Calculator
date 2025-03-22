@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../Media/img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.glass{
+    backdrop-filter: blur(20px) brightness(110%);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+}
+
+.btn {
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
